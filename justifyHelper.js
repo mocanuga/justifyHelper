@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 /* global jQuery */
-;(function ($) {
+;(function ($) { // http://maximeparmentier.com/2012/11/06/bind-show-hide-events-with-jquery/
     'use strict';
     $.each(['show', 'hide'], function () {
         var ev = arguments[0], 
